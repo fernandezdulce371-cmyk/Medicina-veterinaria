@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff0f5;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #d63384;
+}
+
+.curso {
+  border: 2px solid #ff69b4;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #ffc0cb;
+  transition: all 0.3s ease;
+}
+
+.curso.aprobado {
+  text-decoration: line-through;
+  background-color: #f8bbd0;
+  color: #999;
+}
+
+.ciclo {
+  margin-bottom: 30px;
+}
